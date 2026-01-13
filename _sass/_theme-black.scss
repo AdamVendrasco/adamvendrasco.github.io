@@ -22,6 +22,11 @@ $color-primary-link: $red !default;
   -moz-osx-font-smoothing: grayscale;
 }
 
+header a.text-accent {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
 // Import sass partials (used in all themes)
 @import
         "variables",
