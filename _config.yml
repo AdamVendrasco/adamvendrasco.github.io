@@ -20,14 +20,14 @@ url: "https://adamvendrasco.github.io" # the base hostname & protocol for your s
 github_repo:  # the GitHub repo name for your project
 github_username: AdamVendrasco
 
-gitlab_username: avendras
-gitlab_repo:
 gitlab_url: https://gitlab.cern.ch
+gitlab_username: avendras
+
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: jekyllrb
+social_link: instagram
+social_username: adam_vendrascoå
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
