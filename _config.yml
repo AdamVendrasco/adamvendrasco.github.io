@@ -20,6 +20,10 @@ url: "https://adamvendrasco.github.io" # the base hostname & protocol for your s
 github_repo:  # the GitHub repo name for your project
 github_username: AdamVendrasco
 
+gitlab_username: avendras
+gitlab_repo:
+gitlab_url: https://gitlab.cern.ch
+
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
