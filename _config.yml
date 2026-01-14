@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Welcome!"
 subtitle: "I'm Adam Vendrasco"
-description: "Some helpful links"
+description: "Here are some helpful links!"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adamvendrasco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
