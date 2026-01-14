@@ -19,7 +19,8 @@
   font-weight: 300;
   line-height: 1.2;
   margin-top: 0.5rem;
-  margin-left: 0.35rem;  /* subtle nudge */
+  margin-left: clamp(1.5rem, 4vw, 5rem);
+
 }
 
 article[itemscope][itemtype*="BlogPosting"] {
