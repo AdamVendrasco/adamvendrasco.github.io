@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:  Welcome! I'm Adam Vendrasco
-description: Some helpful links
+description: I'm Adam Vendrasco 
+             Some helpful links
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adamvendrasco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo:  # the GitHub repo name for your project
@@ -23,7 +24,6 @@ github_username: AdamVendrasco
 gitlab_url: https://gitlab.cern.ch
 gitlab_username: avendras
 
-future: true
 # Optional social link: following options
 # twitter, instagram, medium, or dribbble
 social_link: instagram
@@ -35,3 +35,4 @@ theme_color: black
 
 # Build settings
 markdown: kramdown
+future: true
