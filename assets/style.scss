@@ -20,14 +20,9 @@
   font-weight: 300;
   line-height: 1.2;
   margin-top: 0.5rem;
-
-  /* Move subtitle to the right (pick ONE of the two approaches below) */
-
-  /* Approach A: spacing-based (recommended) */
-  margin-left: 0.35rem;
-
-  /* Approach B: visual shift (uncomment this and comment out margin-left above) */
-  /* transform: translateX(3rem); */
+}
+.header-title .hero-subtitle{
+  margin-left: 0.5rem;
 }
 
 article[itemscope][itemtype*="BlogPosting"] {
