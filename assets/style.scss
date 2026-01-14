@@ -7,3 +7,8 @@
 @import
         "theme-{{ site.theme_color | default: "black" }}.scss"
 ;
+
+header a.text-accent {
+  font-size: clamp(1.0rem, 2.2vw, 1.25rem);
+}
+
