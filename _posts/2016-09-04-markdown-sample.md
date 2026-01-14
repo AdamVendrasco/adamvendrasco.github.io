@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Me"
+title:  About Me
 date:   Last Update: 2026-01-19
 ---
 
