@@ -4,9 +4,7 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` and set theme here
-@import
-        "theme-{{ site.theme_color | default: "black" }}.scss"
-;
+@import "theme-{{ site.theme_color | default: "black" }}.scss";
 
 h1 {
   font-size: clamp(1.6rem, 3vw, 2.2rem) !important;
@@ -17,10 +15,3 @@ h1 {
   display: inline-block !important;
   padding: 6px 10px !important;
 }
-
-
-
-
-//header a.text-accent {
- // font-size: 1.0rem !important;
-//}
