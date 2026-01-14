@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About Me"
+title: "About Mea"
 date: 2026-01-13
 last_updated: 2026-01-19
 ---
