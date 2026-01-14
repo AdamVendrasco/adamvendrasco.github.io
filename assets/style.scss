@@ -12,22 +12,24 @@
   font-size: 6rem;
   line-height: 1.05;
 }
+
 /* Home subtitle */
 .header-title .hero-subtitle{
   display: block;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.2;
-  margin-top: 1.5rem;
-  margin-left: 0.2rem;
+  margin-top: 0.5rem;
 
+  /* Move subtitle to the right (pick ONE of the two approaches below) */
+
+  /* Approach A: spacing-based (recommended) */
+  margin-left: clamp(1.5rem, 4vw, 5rem);
+
+  /* Approach B: visual shift (uncomment this and comment out margin-left above) */
+  /* transform: translateX(3rem); */
 }
 
 article[itemscope][itemtype*="BlogPosting"] {
   padding-top: 5rem !important;   /* increase to move it further down */
 }
-
-
-
-
-
