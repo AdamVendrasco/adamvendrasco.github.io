@@ -9,8 +9,16 @@
 ;
 
 h1 {
-  outline: 8px solid !important;
+  font-size: clamp(1.6rem, 3vw, 2.2rem) !important;
+  line-height: 1.15 !important;
+
+  background: yellow !important;
+  border: 6px solid red !important;
+  display: inline-block !important;
+  padding: 6px 10px !important;
 }
+
+
 
 
 //header a.text-accent {
