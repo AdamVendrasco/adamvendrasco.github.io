@@ -3,7 +3,6 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` and set theme here
 @import "theme-{{ site.theme_color | default: "black" }}.scss";
 
 /* Home title */
@@ -20,11 +19,11 @@
   font-weight: 300;
   line-height: 1.2;
   margin-top: 0.5rem;
-}
-.header-title .hero-subtitle{
-  margin-left: 0.5rem;
+
+  /* set this to 0 if you want PERFECT alignment */
+  margin-left: 0;
 }
 
-article[itemscope][itemtype*="BlogPosting"] {
-  padding-top: 5rem !important;   /* increase to move it further down */
+article[itemscope][itemtype*="BlogPosting"]{
+  padding-top: 5rem !important;
 }
