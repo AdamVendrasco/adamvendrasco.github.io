@@ -6,7 +6,7 @@ layout: default
   <div class="col-4 sm-width-full mt-1 border-top-thin ">
     {% raw %}{% assign updated = page.last_updated | default: page.date %}
     <p class="mb-3 py-2 bold h4">
-      <time datetime="{{ updated | date_to_xmlschemas }}" itemprop="dateModified">
+      <time datetime="{{ updated | date_to_xmlschema }}" itemprop="dateModified">
         Last Updated: {{ updated | date: "%b %-d, %Y" }}
       </time>
     </p>{% endraw %}
