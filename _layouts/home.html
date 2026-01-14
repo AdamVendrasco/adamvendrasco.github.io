@@ -58,9 +58,11 @@
       </header>
 
       <div class="container mx-auto px-2 py-4">
-        {% for post in site.posts %}
+        {% assign ordered_posts = site.posts | sort: "order" %}
+        {% for post in ordered_posts %}
           {% include post_block.html %}
         {% endfor %}
+
       </div>
 
     </div>
