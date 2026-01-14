@@ -6,8 +6,21 @@
 // Import partials from `sass_dir` and set theme here
 @import "theme-{{ site.theme_color | default: "black" }}.scss";
 
+/* Home hero title */
+.header-title .hero-welcome{
+  display: block;
+  font-size: 4rem;
+  line-height: 1.05;
+}
 
-h1 { font-size: clamp(1.2rem, 2.2vw, 1.8rem) !important; }
+/* Home hero subtitle */
+.header-title .hero-subtitle{
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 0.35rem;
+}
 
 article[itemscope][itemtype*="BlogPosting"] {
   padding-top: 5rem !important;   /* increase to move it further down */
