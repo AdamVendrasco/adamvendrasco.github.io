@@ -1,10 +1,18 @@
 ---
 layout: post
-title:  "Markdown sample"
-date:   2016-09-04
+title:  "About Me"
+date:   Last Update: 2026-01-19
 ---
 
-### Markdown test document
+### About Me
+I’m a graduate student at the University of Tennessee, Knoxville, specializing in experimental particle physics. I work on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) in Geneva, Switzerland. At CMS, we strive to make precise measurements of Standard Model physics and look for signs of new physics beyond the Standard Model. See my Work section if you would like ot know more about what I do as a graduate student and my thesis!
+
+
+
+
+
+
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be have dotted underlines and solid underlines on hover.
 
