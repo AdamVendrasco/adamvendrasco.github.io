@@ -4,7 +4,12 @@ layout: default
 <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">{{ page.title }}</h1>
   <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    <p class="mb-3 py-2 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    {% raw %}{% assign updated = page.last_updated | default: page.date %}
+    <p class="mb-3 py-2 bold h4">
+      <time datetime="{{ updated | date_to_xmlschemas }}" itemprop="dateModified">
+        Last Updated: {{ updated | date: "%b %-d, %Y" }}
+      </time>
+    </p>{% endraw %}
   </div>
 
   <div class="prose" itemprop="articleBody">
@@ -14,5 +19,5 @@ layout: default
 </article>
 
 <div class="container mx-auto px-2 py-2 clearfix">
-  {% include previous-next.html %}
+  {% raw %}{% include previous-next.html %}{% endraw %}
 </div>
