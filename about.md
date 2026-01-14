@@ -1,21 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /about me/
 ---
+I’m a graduate student at the University of Tennessee, Knoxville, specializing in experimental particle physics. I work on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) in Geneva, Switzerland. At CMS, we strive to make precise measurements of Standard Model physics and look for signs of new physics beyond the Standard Model. My thesis focuses on searches for new physics using CMS proton-proton collision data.
 
-Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+### Work:
 
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Simple styling for code snippets (if you want something with syntax highlighting, checkout ....)
-* Dynamically generated navigation links. See docs below for adding pages with specific post category for-loops.
+## Publications
 
-## Themes
+## Useful links
 
-## Browser Support
-
-## Installation
