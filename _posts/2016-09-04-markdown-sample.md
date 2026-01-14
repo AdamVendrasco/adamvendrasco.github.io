@@ -2,7 +2,6 @@
 layout: post
 title: "About Me"
 date: 2026-01-19
-last_update: "Last Update: 2026-01-19"
 ---
 
 ### About Me
