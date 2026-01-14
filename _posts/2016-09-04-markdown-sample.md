@@ -5,27 +5,11 @@ date: 2026-01-13
 last_updated: 2026-01-19
 --- 
 
-I’m currently a graduate student at the University of Tennessee, Knoxville, specializing in experimental high-energy particle physics. I work on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) in Geneva, Switzerland. At CMS, we strive to make precise measurements of Standard Model physics and look for signs of new physics beyond the Standard Model. See my Work section if you would like to know more about what I do as a graduate student and my overall thesis!
+I’m currently a graduate student at the University of Tennessee, Knoxville, specializing in experimental high-energy particle physics. I work on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) in Geneva, Switzerland. At CMS, we strive to make precise measurements of Standard Model physics and look for signs of new physics that go Beyond the Standard Model (BSM). See my Work section if you would like to know more about what I do as a graduate student and my overall thesis searching for BSM physics!
 
+## Publications
 
-
-
-
-
-
-
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.coiom) should be have dotted underlines and solid underlines on hover.
-
-There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
-
-> There should be no margin above this first sentence.
->
-> Blockquotes should be a italicized with a gray border along the left side.
->
-> There should be no margin below this final sentence.
-
+## Useful links
 # Heading 1
 
 This is a normal paragraph following a Heading. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
