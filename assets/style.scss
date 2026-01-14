@@ -6,6 +6,11 @@
 // Import partials from `sass_dir` and set theme here
 @import "theme-{{ site.theme_color | default: "black" }}.scss";
 
+/* Center the whole hero title block */
+.header-title{
+  text-align: center;
+}
+
 /* Home title */
 .header-title .hero-welcome{
   display: block;
@@ -13,7 +18,7 @@
   line-height: 1.05;
 }
 
-/* Home subtitle */
+/* Home subtitle (aligned with Welcome) */
 .header-title .hero-subtitle{
   display: block;
   font-size: 2rem;
@@ -21,13 +26,9 @@
   line-height: 1.2;
   margin-top: 0.5rem;
 
-  /* Move subtitle to the right (pick ONE of the two approaches below) */
-
-  /* Approach A: spacing-based (recommended) */
-  margin-left: clamp(1.5rem, 4vw, 5rem);
-
-  /* Approach B: visual shift (uncomment this and comment out margin-left above) */
-  /* transform: translateX(3rem); */
+  /* IMPORTANT: no right-shift */
+  margin-left: 0 !important;
+  transform: none !important;
 }
 
 article[itemscope][itemtype*="BlogPosting"] {
