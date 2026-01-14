@@ -22,6 +22,9 @@
   margin-top: 0.5rem;
 }
 
+.header-background .header-title{
+  margin-top: 10rem !important;   /* increase/decrease */
+}
 
 article[itemscope][itemtype*="BlogPosting"] {
   padding-top: 5rem !important;   /* increase to move it further down */
