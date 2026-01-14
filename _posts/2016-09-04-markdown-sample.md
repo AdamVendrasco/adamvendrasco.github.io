@@ -15,7 +15,7 @@ I’m currently a graduate student at the University of Tennessee, Knoxville, sp
 
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be have dotted underlines and solid underlines on hover.
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.coiom) should be have dotted underlines and solid underlines on hover.
 
 There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
