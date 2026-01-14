@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Adam Vendrasco
-description: A bold typographic theme inspired by Swiss design.
+description: Welcome! I'm Adam
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adamvendrasco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo:  # the GitHub repo name for your project
@@ -24,10 +24,10 @@ gitlab_url: https://gitlab.cern.ch
 gitlab_username: avendras
 
 
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
+# Optional social link: following options
+# twitter, instagram, medium, or dribbble
 social_link: instagram
-social_username: adam_vendrascoå
+social_username: adam_vendrasco
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
