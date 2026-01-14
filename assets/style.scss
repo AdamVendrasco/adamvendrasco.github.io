@@ -10,9 +10,7 @@
 h1 { font-size: clamp(1.2rem, 2.2vw, 1.8rem) !important; }
 
 article[itemscope][itemtype*="BlogPosting"] h1[itemprop="name headline"]{
-  font-size: 3rem !important;   /* bump up/down */
-  line-height: 1.05 !important;
-  margin-bottom: 0.25rem !important;
+  margin-top: 1.5rem !important;  /* increase to push title down */
 }
 
 
