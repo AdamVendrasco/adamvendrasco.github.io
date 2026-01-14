@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "About Me"
-date: 2026-01-19
+date: 2026-01-13
 ---
 
-# About Me
+## About Me
 I’m currently a graduate student at the University of Tennessee, Knoxville, specializing in experimental high-energy particle physics. I work on the Compact Muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC) in Geneva, Switzerland. At CMS, we strive to make precise measurements of Standard Model physics and look for signs of new physics beyond the Standard Model. See my Work section if you would like to know more about what I do as a graduate student and my overall thesis!
 
 
