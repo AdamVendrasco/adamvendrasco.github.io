@@ -27,18 +27,15 @@ article[itemscope][itemtype*="BlogPosting"]{
   padding-top: 5rem !important;
 }
 
-/* --- Fix social icon positioning --- */
+/* Keep header icons/dots aligned without breaking the theme layout */
 .link-social,
-.link-social-inline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+.dot-link {
+  display: inline-block;
+  vertical-align: middle;
   text-decoration: none;
   line-height: 0;
-  vertical-align: middle;
 }
 
-.link-social svg,
-.link-social-inline svg {
-  display: block; /* prevents baseline drift */
+.link-social svg {
+  display: block; /* removes baseline spacing differences */
 }
