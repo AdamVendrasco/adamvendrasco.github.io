@@ -51,3 +51,16 @@ article[itemscope][itemtype*="BlogPosting"]{
 .table svg {
   vertical-align: middle;
 }
+
+
+/* Force everything in that home icon row to sit on the same middle line */
+.header-background .table .inline-block {
+  vertical-align: middle;
+}
+
+.header-background .table svg,
+.header-background .table .dot,
+.header-background .table .dot-accent {
+  vertical-align: middle;
+}
+
