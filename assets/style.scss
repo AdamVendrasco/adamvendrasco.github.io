@@ -1,10 +1,12 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+/* Only the main Sass file needs front matter (the dashes are enough) */
 
 // Import partials from `sass_dir` and set theme here
-@import "theme-{{ site.theme_color | default: "black" }}.scss";
+@import "theme-{{ site.theme_color | default: 'black' }}.scss";
+
+// ...existing code...
 
 /* Home title */
 .header-title .hero-welcome{
@@ -12,6 +14,8 @@
   font-size: 6rem;
   line-height: 1.05;
 }
+
+// ...existing code...
 
 /* Home subtitle */
 .header-title .hero-subtitle{
@@ -23,26 +27,29 @@
   margin-left: 0.5rem;
 }
 
-/* Push About Me (and other post pages) down a bit */
+// ...existing code...
+
 article[itemscope][itemtype*="BlogPosting"]{
   padding-top: 5rem !important;
 }
 
-/* --- Fix social icon positioning --- */
-/* Some includes use `class="link-social block"` which makes them drop lines.
-   Force them to behave like inline icons inside your "helpful links" row. */
+// ...existing code...
+
 .link-social,
 .link-social.block,
 .link-social-inline {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  line-height: 0; /* keeps SVG from adding extra vertical space */
+  line-height: 0;
 }
 
-/* Ensure SVGs align nicely */
+// ...existing code...
+
 .link-social svg,
 .link-social-inline svg {
   display: inline-block;
   vertical-align: middle;
 }
+
+// ...existing code...
