@@ -39,3 +39,15 @@ article[itemscope][itemtype*="BlogPosting"]{
 .link-social svg {
   display: block; /* removes baseline spacing differences */
 }
+
+
+
+.table .inline-block {
+  vertical-align: middle;
+}
+
+.table .dot,
+.table .dot-accent,
+.table svg {
+  vertical-align: middle;
+}
