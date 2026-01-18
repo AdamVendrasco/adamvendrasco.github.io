@@ -22,7 +22,7 @@ url: "https://adamvendrasco.github.io" # the base hostname & protocol for your s
 github_repo:  # the GitHub repo name for your project
 github_username: AdamVendrasco
 
-gitlab_url: https://gitlab.cern.ch
+gitlab_url: https://gitlab.cern.ch/avendras
 gitlab_username: avendras
 
 # Optional social link: following options
