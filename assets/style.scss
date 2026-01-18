@@ -42,3 +42,17 @@ article[itemscope][itemtype*="BlogPosting"]{
   display: inline-block;
   vertical-align: middle;
 }
+
+
+/* Keep the “helpful links” icons aligned on one line */
+.link-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.link-social svg {
+  display: block;
+}
