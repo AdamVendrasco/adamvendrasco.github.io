@@ -67,6 +67,9 @@
         </div>
       </header>
 
+      <!-- This is what injects the contents of index.html (your image block) -->
+      {{ content }}
+
       <div class="container mx-auto px-2 py-4">
         {% assign ordered_posts = site.posts | sort: "order" %}
         {% for post in ordered_posts %}
