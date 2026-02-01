@@ -1,16 +1,24 @@
 ---
 layout: default
 ---
+layout: default
+---
 <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="h00 col-9 sm-width-full pt-3 pb-1 mt-1 inline-block" itemprop="name headline">{{ page.title }}</h1>
-  <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    {% assign updated = page.last_updated | default: page.date %}
-    <p class="mb-3 py-2 bold h4">
-      <time datetime="{{ updated | date_to_xmlschema }}" itemprop="dateModified">
-        Last Updated: {{ updated | date: "%b %-d, %Y" }}
-      </time>
-    </p>
-  </div>
+
+  {% unless page.hide_title %}
+    <h1 class="h00 col-9 sm-width-full pt-3 pb-1 mt-1 inline-block" itemprop="name headline">
+      {{ page.title }}
+    </h1>
+
+    <div class="col-4 sm-width-full mt-1 border-top-thin ">
+      {% assign updated = page.last_updated | default: page.date %}
+      <p class="mb-3 py-2 bold h4">
+        <time datetime="{{ updated | date_to_xmlschema }}" itemprop="dateModified">
+          Last Updated: {{ updated | date: "%b %-d, %Y" }}
+        </time>
+      </p>
+    </div>
+  {% endunless %}
 
   <div class="prose" itemprop="articleBody">
     {{ content }}
